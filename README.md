@@ -6,3 +6,4 @@ Any live cell with fewer than two live neighbours *dies* (referred to as underpo
 Any live cell with more than three live neighbours *dies* (referred to as overpopulation).
 Any live cell with two or three live neighbours *lives*, unchanged, to the next generation.
 Any dead cell with exactly three live neighbours *comes to life*.
+
