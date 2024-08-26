@@ -1,0 +1,27 @@
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+  .grid-line-container{
+    display: flex;
+  }
+  
+  .grid-item {
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    width: 4vh;
+    height: 4vh;
+  }
+  .grid-item-filled{
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    text-align: center;
+    width: 4vh;
+    height: 4vh;
+  }
